@@ -5,6 +5,7 @@ export const site = {
   phoneIntl: '51983510106',
   instagram: 'https://www.instagram.com/guardialarealeza',
   tiktok: 'https://www.tiktok.com/@guardialarealeza',
+  facebook: 'https://www.facebook.com/share/1CtzW4yZer/',
 }
 
 /** Build a WhatsApp click-to-chat link with an optional prefilled message. */

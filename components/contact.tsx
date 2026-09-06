@@ -1,6 +1,11 @@
 import { site, waLink } from '@/lib/site'
 import { SectionHeading } from '@/components/primitives'
-import { WhatsAppIcon, InstagramIcon, TikTokIcon } from '@/components/icons'
+import {
+  WhatsAppIcon,
+  InstagramIcon,
+  TikTokIcon,
+  FacebookIcon,
+} from '@/components/icons'
 
 const channels = [
   {
@@ -21,6 +26,12 @@ const channels = [
     href: site.tiktok,
     Icon: TikTokIcon,
   },
+  {
+    label: 'Facebook',
+    value: 'Guardia La Realeza',
+    href: site.facebook,
+    Icon: FacebookIcon,
+  },
 ]
 
 export function Contact() {
@@ -33,7 +44,7 @@ export function Contact() {
           intro="Respuesta inmediata 24/7."
         />
 
-        <div className="mt-14 grid gap-5 sm:grid-cols-3">
+        <div className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {channels.map((c) => (
             <a
               key={c.label}

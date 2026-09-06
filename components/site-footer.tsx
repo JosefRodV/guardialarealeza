@@ -1,10 +1,16 @@
 import { Crown } from 'lucide-react'
 import { site, waLink } from '@/lib/site'
-import { WhatsAppIcon, InstagramIcon, TikTokIcon } from '@/components/icons'
+import {
+  WhatsAppIcon,
+  InstagramIcon,
+  TikTokIcon,
+  FacebookIcon,
+} from '@/components/icons'
 
 const socials = [
   { href: site.instagram, Icon: InstagramIcon, label: 'Instagram' },
   { href: site.tiktok, Icon: TikTokIcon, label: 'TikTok' },
+  { href: site.facebook, Icon: FacebookIcon, label: 'Facebook' },
   { href: waLink(), Icon: WhatsAppIcon, label: 'WhatsApp' },
 ]
 
