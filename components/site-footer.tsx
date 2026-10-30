@@ -1,4 +1,3 @@
-import { Crown } from 'lucide-react'
 import { site, waLink } from '@/lib/site'
 import {
   WhatsAppIcon,
@@ -19,9 +18,11 @@ export function SiteFooter() {
     <footer className="border-t border-white/10 bg-ink py-14">
       <div className="mx-auto flex max-w-6xl flex-col items-center gap-6 px-4 text-center sm:px-6">
         <div className="flex items-center gap-3">
-          <span className="flex size-11 items-center justify-center rounded-full border border-gold/50 bg-gold/10">
-            <Crown className="size-6 text-gold" aria-hidden="true" />
-          </span>
+          <img
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/apple-icon-vr3X1nAYJZsrAV82wqeqr0eTHKc6QN.png"
+            alt="Guardia La Realeza"
+            className="size-12 object-contain"
+          />
           <div className="text-left">
             <div className="font-serif text-lg font-bold leading-none">
               Guardia La Realeza
