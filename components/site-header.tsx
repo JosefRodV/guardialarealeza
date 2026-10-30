@@ -1,4 +1,3 @@
-import { Crown } from 'lucide-react'
 import { site } from '@/lib/site'
 import { WhatsAppButton } from '@/components/primitives'
 
@@ -16,9 +15,11 @@ export function SiteHeader() {
     <header className="sticky top-0 z-40 border-b border-white/10 bg-ink/80 backdrop-blur-md">
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
         <a href="#inicio" className="flex items-center gap-2.5">
-          <span className="flex size-9 items-center justify-center rounded-full border border-gold/50 bg-gold/10">
-            <Crown className="size-5 text-gold" aria-hidden="true" />
-          </span>
+          <img
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/apple-icon-vr3X1nAYJZsrAV82wqeqr0eTHKc6QN.png"
+            alt="Guardia La Realeza"
+            className="size-10 object-contain"
+          />
           <span className="font-serif text-base font-bold leading-none tracking-wide sm:text-lg">
             Guardia
             <span className="block text-[0.6rem] font-semibold uppercase tracking-[0.3em] text-gold sm:text-[0.65rem]">
