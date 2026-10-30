@@ -20,7 +20,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: 'Guardia La Realeza | Honor y Elegancia para tu Evento en Lima',
   description:
-    'Guardia de honor profesional con 13 años de experiencia. Cruce de espadas para 15 años, promociones escolares, bodas y eventos sociales en todo Lima. Cotiza por WhatsApp.',
+    'Guardia de honor profesional con 16 años de experiencia. Cruce de espadas para 15 años, promociones escolares, bodas y eventos sociales en todo Lima. Cotiza por WhatsApp.',
   keywords: [
     'guardia de honor',
     'cruce de espadas',
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Guardia La Realeza | Honor y Elegancia para tu Evento',
     description:
-      '13 años dando honor a los eventos más importantes de Lima. Cruce de espadas para 15 años, promociones y bodas.',
+      '16 años dando honor a los eventos más importantes de Lima. Cruce de espadas para 15 años, promociones y bodas.',
     type: 'website',
     locale: 'es_PE',
     images: ['/images/hero.png'],
