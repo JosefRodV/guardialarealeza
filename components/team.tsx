@@ -16,10 +16,10 @@ const packages = [
   {
     tag: 'Paquete estándar · Promociones',
     img: '/images/package-promo.png',
-    alt: 'Cadetes de traje negro y blanco con dorado',
+    alt: 'Seis cadetes y un chambelán con capa, todos de uniforme blanco con dorado y pantalón negro',
     items: [
-      '4 Cadetes traje NEGRO con dorado',
-      '2 Cadetes traje BLANCO con dorado',
+      '6 Cadetes traje BLANCO con dorado',
+      '1 Chambelán traje BLANCO con dorado',
     ],
     featured: false,
   },
@@ -29,6 +29,9 @@ const variations = [
   'Todos los cadetes de BLANCO con dorado',
   'Todos de BLANCO menos el Chambelán',
   'Cadetes mitad BLANCO arriba y NEGRO abajo',
+  'Los 7 de BLANCO con dorado (6 cadetes y chambelán)',
+  'Versión de 4 cadetes en lugar de 6',
+  'Otras combinaciones a pedido, consúltalas por WhatsApp',
 ]
 
 const extras = [

@@ -8,7 +8,7 @@ export function Hero() {
     <section id="inicio" className="relative isolate overflow-hidden">
       <Image
         src="/images/hero.png"
-        alt="Guardia de honor marchando de noche con espadas en alto"
+        alt="Seis cadetes de traje negro y dorado hacen un cruce de espadas sobre una quinceañera y su chambelán"
         fill
         priority
         sizes="100vw"

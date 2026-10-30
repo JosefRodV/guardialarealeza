@@ -18,7 +18,7 @@ export function About() {
           <div className="relative overflow-hidden rounded-2xl">
             <Image
               src="/images/about.png"
-              alt="Formación de cadetes de la Guardia La Realeza en posición de firmes"
+              alt="Dos cadetes de la Guardia La Realeza con traje negro y dorado en posición de firmes"
               width={720}
               height={860}
               className="h-full w-full object-cover"
